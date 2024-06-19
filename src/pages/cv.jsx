@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Resume = () => {
+const Cv = () => {
   return (
     <section>
       <a href="path-to-resume.pdf" download>Download Resume</a>
@@ -16,4 +16,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Cv;

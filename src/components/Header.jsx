@@ -15,13 +15,13 @@ const Header = () => {
           About Me
         </Button>
         <Button color="inherit" component={RouterLink} to="/portfolio" sx={{ textTransform: 'none', fontWeight: location.pathname === '/portfolio' ? 'bold' : 'normal' }}>
-          Portfolio
+          My Portfolio
         </Button>
         <Button color="inherit" component={RouterLink} to="/contact" sx={{ textTransform: 'none', fontWeight: location.pathname === '/contact' ? 'bold' : 'normal' }}>
-          Contact
+          Contact Me
         </Button>
-        <Button color="inherit" component={RouterLink} to="/resume" sx={{ textTransform: 'none', fontWeight: location.pathname === '/resume' ? 'bold' : 'normal' }}>
-          Resume
+        <Button color="inherit" component={RouterLink} to="/cv" sx={{ textTransform: 'none', fontWeight: location.pathname === '/cv' ? 'bold' : 'normal' }}>
+          Check out my Cv
         </Button>
       </Toolbar>
     </AppBar>
