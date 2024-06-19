@@ -1,12 +1,24 @@
 import React from 'react';
 
-const Project = ({ title, image, deployedLink, repoLink }) => {
+const Project = ({ title, image, deployedLink, repoLink, description }) => {
   return (
     <div className="project">
-      <img src={image} alt={title} style={{ width: '300px', height: 'auto' }}/>
-      <h3>{title}</h3>
-      <a href={deployedLink}>Live Demo</a>
-      <a href={repoLink}>GitHub Repo</a>
+      {/* Image on the left side */}
+      <div style={{ flex: '1 1 50%', position: 'relative' }}>
+        <img src={image} alt={title} />
+        <div className="description-overlay">
+          <p>{description}</p>
+        </div>
+      </div>
+
+      {/* Text content on the right side */}
+      <div className="text-container" style={{ flex: '1 1 50%' }}>
+        <h3 style={{ margin: '0 0 20px 0', color:'white' }}>{title}</h3>
+        <p>
+          <a href={deployedLink} style={{ marginRight: '20px', padding:'4px', color: 'white', textDecoration: 'none'}}>Try it out</a>
+          <a href={repoLink} style={{ color: 'white', padding:'4px', textDecoration: 'none'}}>GitHub Repo</a>
+        </p>
+      </div>
     </div>
   );
 };

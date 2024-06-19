@@ -4,26 +4,35 @@ import Project from '../components/projects';
 const projects = [
   {
     title: 'Beefy Stock',
-    image: './public/images/beefy stock.png',
+    image: '/images/beefy stock.png',
     deployedLink: 'https://beefy-stock.onrender.com/',
-    repoLink: 'https://github.com/LWSE13/Beefy-Stock'
+    repoLink: 'https://github.com/LWSE13/Beefy-Stock',
+    description: 'An advanced inventory management app that helps you keep track of stock.'
   },
   {
-    title: 'Project 2',
-    image: 'path-to-image.jpg',
-    deployedLink: 'https://deployed-link.com',
-    repoLink: 'https://github.com/your-github/project1'
+    title: 'Tech Blog',
+    image: '/images/tech blog.png',
+    deployedLink: 'https://tech-blog-llix.onrender.com/',
+    repoLink: 'https://github.com/Ali-mo12002/Tech-blog',
+    description: 'A Tech Blog create for users to share and interact with posts created by like minded individuals.'
   },
-  // Add more projects here
+  
 ];
 
 const Portfolio = () => {
   return (
-    <section>
+    <div>
       {projects.map((project, index) => (
-        <Project key={index} {...project} />
+        <Project
+          key={index}
+          title={project.title}
+          image={project.image}
+          deployedLink={project.deployedLink}
+          repoLink={project.repoLink}
+          description={project.description}
+        />
       ))}
-    </section>
+    </div>
   );
 };
 
