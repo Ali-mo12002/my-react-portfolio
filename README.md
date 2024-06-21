@@ -33,7 +33,7 @@ When you load my portfolio, you will be presented with a header, a section for c
 To access my portfolio, follow these steps:
 
 1. Open your preferred web browser.
-2. Enter the URL of my portfolio or open the HTML file on your local machine.
+2. Enter this URL https://alimohamedali.netlify.app/ to access my portfolio using the internet or open the HTML file on your local machine.
 3. The portfolio will load, and you'll find the header, content sections, and footer.
 
 ## Usage
