@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: 'Carnival Monkey - Group Project',
-    image: '/images/cm.png',
+    image: '/images/cm2.png',
     deployedLink: 'https://lwse13.github.io/Carnival-Monkey/',
     repoLink: 'https://github.com/LWSE13/Carnival-Monkey',
     description: 'Our team project, Carnival Monkey was designed to solve the problem of uncertainty and repetitiveness whilst planning your night out. Simply enter your city into the search bar and let us do the work by reccomending local events ranging from comedy shows to concerts. We wanted to make this project in order to gain experience in producing a project as a team which was probably also the hardest part of this project as before this we were all solo developers so delegating tasks and working without bumping into one another was an obstacle we had to navigate. We used the google maps API and the ticketmaster API to bring this vision to fuition ',

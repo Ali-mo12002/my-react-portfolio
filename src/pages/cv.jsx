@@ -2,22 +2,22 @@ import React from 'react';
 
 const Cv = () => {
   return (
-    <section style={{ padding: '20px', background: '#f5f5f5', margin: '30px 10px', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' }}>
+    <section style={{ padding: '20px', background: 'white', margin: '30px 10px' }}>
       <div style={{ textAlign: 'center', marginBottom: '30px' }}>
-        <a href="/cv/Ali Mohamed Ali - cv (3).pdf" download style={{ textDecoration: 'none', color: '#fff', background: '#1976d2', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-          Download Resume
+        <a href="/cv/Ali Mohamed Ali - cv (3).pdf" download style={{ textDecoration: 'none', color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>
+          Download my CV
         </a>
       </div>
-      <h2 style={{ textAlign: 'center', color: '#333', marginBottom: '20px' }}>Tech Stack</h2>
+      <h2 style={{ textAlign: 'center', color: '#1976d2', marginBottom: '20px' }}>Tech Stack</h2>
       <ul style={{ listStyle: 'none', padding: '0', display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
-        <li style={{ background: '#1976d2', color: '#fff', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>HTML</li>
-        <li style={{ background: '#1976d2', color: '#fff', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>CSS</li>
-        <li style={{ background: '#1976d2', color: '#fff', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>JavaScript</li>
-        <li style={{ background: '#1976d2', color: '#fff', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>React</li>
-        <li style={{ background: '#1976d2', color: '#fff', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>Node</li>
-        <li style={{ background: '#1976d2', color: '#fff', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>MongoDb</li>
-        <li style={{ background: '#1976d2', color: '#fff', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>postgres</li>
-        <li style={{ background: '#1976d2', color: '#fff', padding: '10px 20px', borderRadius: '5px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>sequelize</li>
+        <li style={{ color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>HTML</li>
+        <li style={{ color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>CSS</li>
+        <li style={{ color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>JavaScript</li>
+        <li style={{ color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>React</li>
+        <li style={{ color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>Node</li>
+        <li style={{ color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>MongoDb</li>
+        <li style={{ color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>Postgres</li>
+        <li style={{ color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>Sequelize</li>
       </ul>
     </section>
   );

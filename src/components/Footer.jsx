@@ -13,6 +13,12 @@ const Footer = () => {
           href="https://github.com/Ali-mo12002"
           target="_blank"
           rel="noopener noreferrer"
+          sx={{
+            '&:hover': {
+              bgcolor: '#1976d2',
+              color: 'white', // Optional: to change the icon color to white on hover
+            },
+          }}
         />
         <BottomNavigationAction
           label="LinkedIn"
@@ -20,8 +26,13 @@ const Footer = () => {
           href="https://www.linkedin.com/in/ali-m-574056289/"
           target="_blank"
           rel="noopener noreferrer"
+          sx={{
+            '&:hover': {
+              bgcolor: '#1976d2',
+              color: 'white', // Optional: to change the icon color to white on hover
+            },
+          }}
         />
-       
       </BottomNavigation>
     </Box>
   );

@@ -28,10 +28,10 @@ const Project = ({ title, image, deployedLink, repoLink, description, technologi
 
       {/* Text content on the right side */}
       <div className="text-container" style={{ flex: '1 1 50%' }}>
-        <h3 style={{ margin: '0 0 20px 0', color:'white' }}>{title}</h3>
+        <h3 style={{ margin: '0 0 20px 0', color:'#1976d2' }}>{title}</h3>
         <p>
-          <a href={deployedLink} style={{ marginRight: '20px', padding:'4px', color: 'white', textDecoration: 'none'}}>Try it out</a>
-          <a href={repoLink} style={{ color: 'white', padding:'4px', textDecoration: 'none'}}>GitHub Repo</a>
+          <a href={deployedLink} style={{ marginRight: '20px', padding:'4px', textDecoration: 'none'}}>Try it out</a>
+          <a href={repoLink} style={{  padding:'4px', textDecoration: 'none'}}>GitHub Repo</a>
         </p>
         <div className="technologies" style={{ marginTop: '20px' }}>
           {technologies.map((tech, index) => (
