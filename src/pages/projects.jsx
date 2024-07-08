@@ -7,7 +7,7 @@ const projects = [
     image: '/images/moveeasy.png',
     deployedLink: 'https://move-easy-h1t1.onrender.com/',
     repoLink: 'https://github.com/Sahanaroy1/Move_Easy',
-    description: 'https://github.com/Sahanaroy1/Move_Easy',
+    description: 'Move Easy is a real estate platform designed for agents to showcase their properties and for users to find their ideal home. The site features advanced search and filtering capabilities, detailed property listings, and integrated communication tools. Developed as a group project, Move Easy leverages modern web technologies to provide a seamless and engaging user experience.',
     technologies: ['html', 'node', 'react','javascript', 'express', 'mongoDb','css', 'webpack' ]
 
   },
