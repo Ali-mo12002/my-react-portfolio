@@ -3,6 +3,15 @@ import Project from '../components/projects';
 
 const projects = [
   {
+    title: 'Move Easy - Group Project',
+    image: '/images/moveeasy.png',
+    deployedLink: 'https://move-easy-h1t1.onrender.com/',
+    repoLink: 'https://github.com/Sahanaroy1/Move_Easy',
+    description: 'https://github.com/Sahanaroy1/Move_Easy',
+    technologies: ['html', 'node', 'react','javascript', 'express', 'mongoDb','css', 'webpack' ]
+
+  },
+  {
     title: 'Beefy Stock - Group Project',
     image: '/images/beefy stock.png',
     deployedLink: 'https://beefy-stock.onrender.com/',

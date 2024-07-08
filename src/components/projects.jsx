@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from 'react-icons/fa'; // Import necessary icons from react-icons
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiMongodb, SiPostgresql, SiSequelize, SiHandlebarsdotjs,SiWebpack } from "react-icons/si";
+import { SiMongodb, SiPostgresql, SiSequelize, SiHandlebarsdotjs,SiWebpack, SiApollographql } from "react-icons/si";
 
 const icons = {
     react: <FaReact />,
@@ -13,7 +13,8 @@ const icons = {
     sequelize: <SiSequelize />,
     css: <FaCss3Alt/>,
     handlebars: <SiHandlebarsdotjs/>,
-    webpack: <SiWebpack/>
+    webpack: <SiWebpack/>,
+    graphql: <SiApollographql/>
 };
 const Project = ({ title, image, deployedLink, repoLink, description, technologies  }) => {
   return (
