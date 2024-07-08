@@ -4,7 +4,7 @@ const Cv = () => {
   return (
     <section style={{ padding: '20px', background: 'white', margin: '30px 10px' }}>
       <div style={{ textAlign: 'center', marginBottom: '30px' }}>
-        <a href="/cv/Ali Mohamed Ali - cv (3).pdf" download style={{ textDecoration: 'none', color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>
+        <a href="/cv/Ali Mohamed Ali - cv (6).pdf" download style={{ textDecoration: 'none', color: '#1976d2', background: 'white', padding: '10px 20px', border: '2px solid #1976d2', borderRadius: '4px' }}>
           Download my CV
         </a>
       </div>
